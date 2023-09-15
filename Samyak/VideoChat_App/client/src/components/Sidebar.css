@@ -1,0 +1,75 @@
+/* Sidebar.css (or your preferred CSS file) */
+
+.container {
+    width: 600px;
+    margin: 35px 0;
+    padding: 0;
+  }
+  
+  .paper {
+    padding: 10px 20px;
+    border: 2px solid black;
+  }
+  
+  .root {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .padding {
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+  }
+  
+  h6 {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+  }
+  
+  button.call {
+    border-radius: 50%; /* Makes the button round (circle) */
+  width: 30px; /* Set the desired width */
+  height: 61px; /* Set the desired height */
+    background-color: #1f8ce6; /* Blue */
+  }
+  
+  button.hang-up {
+    border-radius: 50%; /* Makes the button round (circle) */
+  width: 30px; /* Set the desired width */
+  height: 61px;
+    background-color: #f44336; /* Red */
+  }
+  
+  button.call:hover,
+  button.hang-up:hover {
+    opacity: 0.8;
+  }
+  
+  .margin {
+    margin-top: 20px;
+  }
+  
+  img {
+    height: 30px;
+    width: 30px;
+  }
