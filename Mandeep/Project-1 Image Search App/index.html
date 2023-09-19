@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS stylesheet -->
+</head>
+<body> 
+<h1>Image Search App</h1>
+<form action="">
+    <input type="text" id="search-input" placeholder="Search for images">
+    <button id="search-button" type="submit">Search</button>
+    <button id="clear-button" type="button">Clear</button>
+</form>
+
+<div class="search-results">
+    <!-- Search Result 1 -->
+    <div class="search-result">
+        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80.jpg" alt="HTML Code">
+        <a href="https://unsplash.com/photos/4hbJ-eymZ1o.jpg" class="image-link" target="_blank">HTML Code</a>
+        <!-- Download button for Search Result 1 (Initially hidden) -->
+        <a href="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80.jpg" download>
+            <button class="download-button" style="display: none;">Download</button>
+        </a>
+        <!-- Hide button for Search Result 1 (Initially hidden) -->
+        <button class="hide-button" style="display: none;">Hide</button>
+    </div>
+
+    <!-- Search Result 2 -->
+    <div class="search-result">
+        <img src="https://images.unsplash.com/photo-1617507171089-6cb9aa5add36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80.jpg" alt="Streaming Setup">
+        <a href="https://unsplash.com/photos/hluitBPPJBI.jpg" class="image-link" target="_blank">Streaming Setup</a>
+        <!-- Download button for Search Result 2 (Initially hidden) -->
+        <a href="https://images.unsplash.com/photo-1617507171089-6cb9aa5add36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80.jpg" download></a>
+        <button class="download-button" style="display: none;">Download</button>
+        <!-- Hide button for Search Result 2 (Initially hidden) -->
+        <button class="hide-button" style="display: none;">Hide</button>
+    </div>
+
+    <!-- Search Result 3 -->
+    <div class="search-result">
+        <img src="https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80.jpg" alt="Sunset Wallpaper">
+        <a href="https://unsplash.com/photos/PAykYb-8Er8.jpg" class="image-link" target="_blank">Sunset Wallpaper</a>
+        <!-- Download button for Search Result 3 (Initially hidden) -->
+        <a href="https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80.jpg" download></a>
+        <button class="download-button" style="display: none;">Download</button>
+        <!-- Hide button for Search Result 3 (Initially hidden) -->
+        <button class="hide-button" style="display: none;">Hide</button>
+    </div>
+</div>
+
+<button id="show-more-button">Show more</button>
+
+<script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
