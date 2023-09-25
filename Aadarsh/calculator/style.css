@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background: white;
+    overflow: hidden;
+}
+
+form input{
+    width: 100%;
+    height: 150px;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    color:rgb(0, 0, 0);
+    background: white;
+    text-align: right;
+    pointer-events: none;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+button{
+    flex:0 0 22%;
+    margin: 5px 0;
+    border: 1px solid rgb(255, 255, 255);
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active{
+    color: #d3d2d2;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.btn-clear{
+    background: rgb(229, 227, 227);
+    color: rgb(71, 162, 236);
+    margin-right: 68px;
+}
+.btn-modulus{
+    background: rgb(229, 227, 227);
+    color: rgb(71, 162, 236);
+}
+.btn-blue{
+    background: rgb(229, 227, 227);
+    color: rgb(71, 162, 236);
+}
+
+.btn-grey{
+    background: rgb(229, 227, 227);
+}
+
+.btn-zero{
+    background: rgb(229, 227, 227);
+    margin-right: 68px;
+}
+
+.btn-equal{
+    background: rgb(229, 227, 227);
+    color: rgb(71, 162, 236);
+}
+
+.btn:hover{
+    background: rgb(159, 158, 158);
+    
+}
