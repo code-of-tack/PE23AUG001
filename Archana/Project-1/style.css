@@ -1,0 +1,62 @@
+header {
+    background-color: #388cfa;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+header h1 {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    color: rgb(2, 4, 120);
+    
+}
+
+.primary-btn {
+    padding: 8px 20px;
+    border-width: 2px  ;
+    border-style: solid ;
+    border-radius: 5px;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #fff; 
+    background: #f49804; 
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    opacity: 0.8;
+    background-color: rgb(132, 202, 27);
+}
+
+.back-btn {
+    background-color: #f49804; 
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 11px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .back-btn:hover {
+     background-color: #50c847;
+  }
+
+  .meme-generator {
+    text-align: center; 
+    margin: 0 auto;
+  }
+
+  
+  body {
+    background: linear-gradient(to bottom, #03d7f7, #a73bc5b9);
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
