@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MemeCraft</h1>
+    </header>
+    <div class="meme-generator">
+        <button class="back-btn">Previous Meme</button>
+        <button id="goToPage-btn" class="primary-btn">Go To Page</button>
+        <button class="generate-meme-btn primary-btn">Next Meme</button>
+        <h2 class="meme-title">Loading...</h2>
+        <img id="meme-image" src="" alt="Meme">
+        <div class="meme-author"></div>
+    </div>     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" 
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+    <footer>&copy 2023 MemeCraft</footer>
+</body>
+</html>
