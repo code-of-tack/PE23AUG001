@@ -1,0 +1,85 @@
+header {
+    background-color: #388cfa;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+header h1 {
+    font-family: "Montserrat" , sans-serif;
+    margin: 0;
+    color: rgb(249, 249, 249);
+    
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    border-width: 2px  ;
+    border:2px #388cfa ;
+    border-radius: 5px;
+    margin: 24px 2px;
+    font-size: 20px;
+    color: #fff; 
+    background: #388cfa; 
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    opacity: 0.8;
+    background-color: rgb(132, 202, 27);
+}
+
+.back-btn {
+    background-color: #388cfa;  
+    border: 2px #388cfa;
+    border-radius: 5px;
+    margin: 0px 2px;
+    color: white;
+    padding: 11px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    page-break-inside: avoid;
+  }
+
+.back-btn:disabled {
+  background-color: #ccc;
+    color: #888; 
+    cursor: not-allowed;
+}
+
+  .back-btn:hover {
+     background-color: rgb(132, 202, 27);
+  }
+
+  .meme-generator {
+    text-align: center; 
+    margin: 0 auto;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #f5f7f7, #f7f6f7);
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+img {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #388cfa;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}  
+
+
+  
